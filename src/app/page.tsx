@@ -1,6 +1,9 @@
+import Navbar from '@/components/Navbar';
+
 export default function Home() {
   return (
     <main className="bg-[#0A192F] text-[#CCD6F6] font-serif">
+      <Navbar />
       {/* Hero Section */}
       <section className="min-h-screen flex flex-col items-center justify-center text-center p-8">
         <div className="max-w-4xl mx-auto">
@@ -31,15 +34,6 @@ export default function Home() {
               className="px-8 py-3 border-2 border-[#E5C100] text-[#E5C100] font-semibold rounded-lg hover:bg-[#E5C100]/10 transition-colors shadow-[0_0_15px_rgba(229,193,0,0.15)] font-serif"
             >
               Join the Team
-            </a>
-
-            <a
-              href="https://instagram.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-8 py-3 border-2 border-[#8892B0] text-[#8892B0] font-semibold rounded-lg hover:bg-[#8892B0]/10 transition-colors font-serif"
-            >
-              Follow Us on Instagram
             </a>
           </div>
         </div>
