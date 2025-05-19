@@ -38,69 +38,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* About Section */}
-      <section className="py-20 px-8" id="about">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-[#FFD700] via-[#FDB931] to-[#FFD700] text-transparent bg-clip-text">
-            About Us
-          </h2>
-
-          <div className="grid gap-8">
-            <div>
-              <h3 className="text-xl font-semibold text-[#FFD700] mb-2">
-                Our Mission
-              </h3>
-              <p className="text-[#8892B0]">
-                To make technology and CS education accessible to every young
-                learner, regardless of background.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-xl font-semibold text-[#FFD700] mb-2">
-                Our Vision
-              </h3>
-              <p className="text-[#8892B0]">
-                To build a future where digital literacy is a universal skill
-                and innovation starts early.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-xl font-semibold text-[#FFD700] mb-2">
-                Why We Started
-              </h3>
-              <p className="text-[#8892B0]">
-                Frustrated by the lack of engaging, beginner-friendly tech
-                education for younger students, we created Project Zenith to
-                offer accessible, age-appropriate, hands-on workshops, led by
-                experienced high schoolers.
-              </p>
-            </div>
-          </div>
-
-          <div className="mt-12 bg-[#112240] rounded-lg p-6">
-            <h3 className="text-xl font-semibold text-[#FFD700] mb-4">
-              What We've Done
-            </h3>
-            <ul className="text-[#8892B0] space-y-2">
-              <li>• Our first workshops launch Summer 2025</li>
-              <li>• Multiple library partnerships are underway</li>
-              <li>
-                • Founders and members bring 1000+ hours of leadership,
-                technical, and community experience
-              </li>
-              <li>
-                • Support from volunteers involved in organizations like
-                Heart2Hut, library advisory boards, and national STEM
-                competitions
-              </li>
-              <li>• Social presence growing with Instagram and TikTok</li>
-            </ul>
-          </div>
-        </div>
-      </section>
     </main>
   );
 }
