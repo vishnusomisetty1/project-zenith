@@ -2,7 +2,7 @@ import Navbar from '@/components/Navbar';
 
 export default function Home() {
   return (
-    <main className="bg-[#0A192F] text-[#CCD6F6] font-serif">
+    <main className="bg-[#0A192F] text-[#F6F9F8] font-serif">
       <Navbar />
       {/* Hero Section */}
       <section
@@ -15,16 +15,16 @@ export default function Home() {
         }}
       >
         <div className="max-w-4xl mx-auto relative z-10">
-          <h1 className="text-4xl sm:text-5xl font-bold mb-6 bg-gradient-to-r from-[#E5C100] via-[#DBA514] to-[#E5C100] text-transparent bg-clip-text drop-shadow-[0_2px_2px_rgba(229,193,0,0.3)] font-serif leading-tight">
+          <h1 className="text-4xl sm:text-5xl font-bold mb-6 bg-gradient-to-r from-[#E2B148] via-[#E2B148] to-[#E2B148] text-transparent bg-clip-text drop-shadow-[0_2px_2px_rgba(226,177,72,0.3)] font-serif leading-tight">
             Project Zenith
           </h1>
 
-          <p className="text-lg sm:text-xl text-[#CCD6F6] mb-6 font-serif leading-relaxed">
+          <p className="text-lg sm:text-xl text-[#F6F9F8] mb-6 font-serif leading-relaxed">
             Igniting Curiosity. Building Skills. Empowering the Next Generation
             of Innovators.
           </p>
 
-          <p className="text-base sm:text-lg text-[#8892B0] mb-8 font-serif leading-relaxed">
+          <p className="text-base sm:text-lg text-[#F6F9F8] mb-8 font-serif leading-relaxed">
             Free, student-led workshops in coding, computer science, and digital
             literacy for youth ages 8–16.
           </p>
